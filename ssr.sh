@@ -5,9 +5,9 @@ export PATH
 #=================================================
 #	System Required: CentOS 6+/Debian 6+/Ubuntu 14.04+
 #	Description: Install the ShadowsocksR server
-#	Version: 2.0.38
-#	Author: Toyo
-#	Blog: https://doub.io/ss-jc42/
+#	Version: 9.9.9
+#	Author: Tanzichao
+#	Blog: http://qzone.qq.com/2287560731
 #=================================================
 
 sh_ver="2.0.38"
@@ -1451,7 +1451,7 @@ menu_status(){
 check_sys
 [[ ${release} != "debian" ]] && [[ ${release} != "ubuntu" ]] && [[ ${release} != "centos" ]] && echo -e "${Error} 本脚本不支持当前系统 ${release} !" && exit 1
 echo -e "  ShadowsocksR 一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-  ---- Toyo | doub.io/ss-jc42 ----
+  ---- 谭梓超 | qzone.qq.com/2287560731 ----
 
   ${Green_font_prefix}1.${Font_color_suffix} 安装 ShadowsocksR
   ${Green_font_prefix}2.${Font_color_suffix} 更新 ShadowsocksR
